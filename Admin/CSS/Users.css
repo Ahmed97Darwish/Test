@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/*  ---------- Start Main Rilze ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -o-scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+
+.container {
+  background-color: #fff;
+  min-width: 950px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*  ---------- End Main Rilze ---------- */
+
+/*  ---------- Start Users ---------- */
+
+.users {
+  padding: 25px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.users header h1 {
+  font-size: 50px;
+  margin: 40px 0;
+  font-weight: bold;
+  color: #666;
+  position: relative;
+  text-shadow: 0 3px 10px #ccc;
+}
+
+/*
+.users header h1::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  right: 45%;
+  height: 3px;
+  width: 10%;
+  background-color: #999;
+}*/
+
+.users .table {
+  -webkit-box-shadow: 0 3px 10px #ccc;
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -o-box-shadow: 0 3px 10px #ccc;
+  -ms-box-shadow: 0 3px 10px #ccc;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.users .table tr:first-of-type {
+  background-color: #333;
+  color: #f6f6f6;
+}
+
+.users .table tr:first-of-type td {
+  padding: 8px 10px;
+}
+
+.users .table tr td {
+  vertical-align: middle !important;
+}
+
+.users .table tr td img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
+
+.users .table tr a,
+.users .table tr button,
+.users a {
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #333;
+  border: 1px solid #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.users .table tr a:hover,
+.users .table tr button:hover,
+.users a:hover {
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 700;
+}
+
+.users .table tr a.btn-info i,
+.users .table tr button.btn-info i {
+  color: #17a2b8;
+}
+
+.users .table tr a.btn-success i,
+.users .table tr button.btn-success i {
+  color: #1e7e34;
+}
+
+.users .table tr a.btn-danger i,
+.users .table tr button.btn-danger i {
+  color: #bd2130;
+}
+
+/*  ======================                  =========================  */
+
+.users .modal {
+  height: 100vh;
+  width: 1400px;
+  margin: auto;
+}
+
+.users .fade {
+  transition: all 0.3s ease-in-out;
+}
+
+.users .modal .modal-dialog {
+  height: 90%;
+  width: 100%;
+}
+
+.users .modal .modal-dialog .modal-content {
+  height: 100%;
+  width: 100%;
+}
+
+.users .modal .modal-content .modal-header button {
+  margin: 0 2px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #000;
+  border: 1px solid #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.users .modal .modal-content .modal-header button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.users .modal .modal-content .modal-body h3 {
+  margin: 20px 0;
+}
+
+.users .modal .modal-content .modal-body video {
+  padding: 2px;
+  -webkit-box-shadow: 0 3px 10px #ccc;
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -o-box-shadow: 0 3px 10px #ccc;
+  -ms-box-shadow: 0 3px 10px #ccc;
+  box-shadow: 0 8px 25px #ccc;
+}
+
+.users .modal .modal-content .modal-footer .btn {
+  margin: 0 2px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #000;
+  border: 1px solid #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.users .modal .modal-content .modal-footer .btn:hover {
+  background-color: #fff;
+  color: #333;
+  font-weight: 700;
+}
+
+/*  ---------- End Users ---------- */
+
+/*  ---------- Start Modal ---------- */
+
+/*  ---------- End Modal ---------- */

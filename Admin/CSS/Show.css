@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/*  ---------- Start Main Rilze ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.container {
+  background-color: #fff;
+  min-width: 750px;
+  padding-right: 0;
+  padding-left: 0;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+/*  ---------- End Main Rilze ---------- */
+
+/*  ---------- Start show_section ---------- */
+
+.show_section {
+  padding: 25px 30px;
+}
+
+.show_section header h1 {
+  font-size: 50px;
+  font-weight: 800;
+  padding: 30px 0;
+  text-shadow: 0 3px 10px #ccc;
+}
+
+.show_section .row {
+  padding: 0 10px;
+}
+
+.show_section .image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.show_section {
+  position: relative;
+}
+
+.show_section .item-info h2 {
+  padding: 0 10px;
+  margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 40px;
+  color: crimson;
+}
+
+.show_section .item-info h2::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 80px;
+  background-color: crimson;
+  top: 45px;
+  left: 25px;
+}
+
+.show_section .item-info ul li {
+  padding: 10px;
+  margin: 5px;
+  font-size: 18px;
+  color: #415073;
+}
+
+.show_section .item-info ul li a i {
+  padding-left: 3px;
+  font-size: 25px;
+  color: #1c7ed6;
+}
+
+.show_section .item-info ul li .km {
+  font-size: 12px;
+  color: #ccc;
+  padding-left: 8px;
+  font-weight: 400;
+}
+
+.show_section .item-info ul li.photo {
+  min-height: 150px;
+}
+
+.show_section .item-info ul li.photo img {
+  border-radius: 15px;
+}
+
+.show_section .item-info ul li.about {
+  min-height: 150px;
+}
+
+.show_section .item-info ul li.about {
+  min-height: 80px;
+}
+
+.show_section .item-info ul li.about span.about {
+  min-width: 400px;
+  min-height: 80px;
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.show_section .item-info ul li:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+.show_section .item-info ul li i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.show_section .item-info ul li span {
+  display: inline-block;
+  width: 180px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+  margin-right: 5px;
+}
+
+.show_section .item-info ul li select {
+  width: 250px;
+  border-color: #ddd;
+  background-color: #f3f3f3;
+}
+
+.show_section .item-info li a,
+.show_section .item-info li button,
+.show_section a {
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #333;
+  border: 1px solid #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.show_section .item-info li a:hover,
+.show_section .item-info li button:hover,
+.show_section a:hover {
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 700;
+}
+
+.show_section .item-info li a.btn-info i,
+.show_section .item-info li button.btn-info i {
+  color: #17a2b8;
+  font-size: 18px;
+}
+
+.show_section .item-info li a.btn-success i,
+.show_section .item-info li button.btn-success i {
+  color: #5cb85c;
+  font-size: 18px;
+}
+
+.show_section .item-info li a.btn-danger i,
+.show_section .item-info li button.btn-danger i {
+  color: #bd2130;
+  font-size: 18px;
+}
+
+/*  ---------- End show_section ---------- */
+
+/*  ======================                  =========================  */
+
+.show_section .item-info .fade {
+  transition: all 0.3s ease-in-out;
+}
+
+.show_section .item-info .fade {
+  transition: all 0.3s ease-in-out;
+}
+
+.show_section .item-info .modal .modal-content .modal-header button {
+  margin: 0 2px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #000;
+  border: 1px solid #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.show_section .item-info .modal .modal-content .modal-header button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.show_section .item-info .modal .modal-content .modal-body h3 {
+  margin: 20px 0;
+}
+
+.show_section .item-info .modal .modal-content .modal-body video {
+  padding: 0 2px 2px;
+  -webkit-box-shadow: 0 3px 10px #ccc;
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -o-box-shadow: 0 3px 10px #ccc;
+  -ms-box-shadow: 0 3px 10px #ccc;
+  box-shadow: 0 8px 25px #ccc;
+}
+
+.show_section .item-info .modal .modal-content .modal-footer .btn {
+  margin: 0 2px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #000;
+  border: 1px solid #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.show_section .item-info .modal .modal-content .modal-footer .btn:hover {
+  background-color: #fff;
+  color: #333;
+  font-weight: 700;
+}
+
+/*  ======================                  =========================  */
